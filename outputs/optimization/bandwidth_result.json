@@ -1,0 +1,71 @@
+{
+  "input_file": "/Users/yyan/Desktop/cwan/Probe_Signal/signal_control/data/corridor-osm-network/fixed_timing_60s.add.xml",
+  "output_file": "/Users/yyan/Desktop/cwan/Probe_Signal/signal_control/data/corridor-osm-network/fixed_timing_optimized.add.xml",
+  "reference_program": "ts02",
+  "cycle_length_s": 60,
+  "flow_weights": {
+    "EB": 0.49749069127408124,
+    "WB": 0.5025093087259187
+  },
+  "baseline_score_at_C60_offsets0": {
+    "score": 0.0,
+    "b_EB_s": 0,
+    "b_WB_s": 0
+  },
+  "optimized_score": {
+    "weighted_score": 5.527602395985106,
+    "b_EB_s": 0,
+    "b_WB_s": 11
+  },
+  "intersections": [
+    {
+      "name": "Lime",
+      "tl_id": "54553323",
+      "offset_s": 0,
+      "tau_EB_s": 0.0,
+      "tau_WB_s": 185.55
+    },
+    {
+      "name": "Park",
+      "tl_id": "54424419",
+      "offset_s": 3,
+      "tau_EB_s": 33.61,
+      "tau_WB_s": 165.17
+    },
+    {
+      "name": "Victoria",
+      "tl_id": "GS_cluster_5910940017_5910976489",
+      "offset_s": 17,
+      "tau_EB_s": 48.83,
+      "tau_WB_s": 149.43
+    },
+    {
+      "name": "Kansas",
+      "tl_id": "GS_cluster_54287971_5910976488",
+      "offset_s": 5,
+      "tau_EB_s": 89.08,
+      "tau_WB_s": 107.35
+    },
+    {
+      "name": "Ottawa",
+      "tl_id": "GS_cluster_5910940035_5910945467",
+      "offset_s": 39,
+      "tau_EB_s": 119.41,
+      "tau_WB_s": 77.05
+    },
+    {
+      "name": "Chicago",
+      "tl_id": "GS_cluster_4689533026_54483626_5910945475_5910945476",
+      "offset_s": 35,
+      "tau_EB_s": 149.17,
+      "tau_WB_s": 47.29
+    },
+    {
+      "name": "Iowa",
+      "tl_id": "GS_cluster_5910933593_9013582988",
+      "offset_s": 20,
+      "tau_EB_s": 208.54,
+      "tau_WB_s": 0.0
+    }
+  ]
+}

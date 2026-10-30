@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='utf-8'?>
+<additional>
+  <tlLogic id="54206219" programID="default" offset="0" type="actuated">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="90" />
+    <phase duration="42" minDur="15" maxDur="50" state="GGggrrrGGg" />
+    <phase duration="3" minDur="3" maxDur="3" state="yyyyrrrGyy" />
+    <phase duration="42" minDur="15" maxDur="50" state="rrrrGGgGrr" />
+    <phase duration="3" minDur="3" maxDur="3" state="rrrryyyGrr" />
+  </tlLogic>
+  <tlLogic id="54253236" programID="default" offset="0" type="actuated">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="90" />
+    <phase duration="40" minDur="15" maxDur="50" state="rrrGGgGG" />
+    <phase duration="5" minDur="5" maxDur="5" state="rrryyyyy" />
+    <phase duration="40" minDur="15" maxDur="50" state="GGGrrrrr" />
+    <phase duration="5" minDur="5" maxDur="5" state="yyyrrrrr" />
+  </tlLogic>
+  <tlLogic id="54291570" programID="default" offset="0" type="actuated">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="90" />
+    <phase duration="41" minDur="15" maxDur="50" state="GggrrrGGg" />
+    <phase duration="4" minDur="4" maxDur="4" state="yyyrrrGyy" />
+    <phase duration="41" minDur="15" maxDur="50" state="rrrGGgGrr" />
+    <phase duration="4" minDur="4" maxDur="4" state="rrryyyGrr" />
+  </tlLogic>
+  <tlLogic id="54308676" programID="default" offset="0" type="actuated">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="90" />
+    <phase duration="38" minDur="15" maxDur="50" state="GGGggGGGggrrrr" />
+    <phase duration="3" minDur="3" maxDur="3" state="yyyggyyyggrrrr" />
+    <phase duration="6" minDur="7" maxDur="30" state="rrrGGrrrGGrrrr" />
+    <phase duration="3" minDur="3" maxDur="3" state="rrryyrrryyrrrr" />
+    <phase duration="37" minDur="15" maxDur="50" state="GrrrrrrrrrGGGG" />
+    <phase duration="3" minDur="3" maxDur="3" state="Grrrrrrrrryyyy" />
+  </tlLogic>
+  <tlLogic id="54335778" programID="default" offset="0" type="actuated">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="90" />
+    <phase duration="42" minDur="15" maxDur="50" state="GGrrrGGgg" />
+    <phase duration="3" minDur="3" maxDur="3" state="yyrrryyyy" />
+    <phase duration="42" minDur="7" maxDur="30" state="rrGGGrrrr" />
+    <phase duration="3" minDur="3" maxDur="3" state="rryyyrrrr" />
+  </tlLogic>
+  <tlLogic id="54335782" programID="default" offset="0" type="actuated">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="90" />
+    <phase duration="33" minDur="15" maxDur="50" state="GGGggrrrGGggrrrr" />
+    <phase duration="3" minDur="3" maxDur="3" state="yyyggrrryyggrrrr" />
+    <phase duration="6" minDur="7" maxDur="30" state="rrrGGrrrrrGGrrrr" />
+    <phase duration="3" minDur="3" maxDur="3" state="rrryyrrrrryyrrrr" />
+    <phase duration="33" minDur="15" maxDur="50" state="rrrrrGGgrrrrGGGg" />
+    <phase duration="3" minDur="3" maxDur="3" state="rrrrryygrrrryyyg" />
+    <phase duration="6" minDur="7" maxDur="20" state="rrrrrrrGrrrrrrrG" />
+    <phase duration="3" minDur="3" maxDur="3" state="rrrrrrryrrrrrrry" />
+  </tlLogic>
+  <tlLogic id="54424419" programID="actuated_local" offset="25" type="actuated">
+    <phase duration="24" minDur="10" maxDur="32" state="GGggrrrrrGGggrrrrr" />
+    <phase duration="3" minDur="3" maxDur="3" state="yyyyrrrrryyyyrrrrr" />
+  <phase duration="8" minDur="8" maxDur="23" state="rrrrrrrGGrrrrrrrGG" />
+    <phase duration="22" minDur="10" maxDur="32" state="rrrrGGGggrrrrGGGgg" />
+    <phase duration="3" minDur="3" maxDur="3" state="rrrryyyyyrrrryyyyy" />
+    <param key="detector-gap" value="3" />
+    <param key="build-all-detectors" value="true" />
+    </tlLogic>
+  <tlLogic id="54483620" programID="default" offset="0" type="actuated">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="90" />
+    <phase duration="31" minDur="15" maxDur="50" state="GGGggrrrrGGGggrrrr" />
+    <phase duration="4" minDur="4" maxDur="4" state="yyyggrrrryyyggrrrr" />
+    <phase duration="6" minDur="7" maxDur="30" state="rrrGGrrrrrrrGGrrrr" />
+    <phase duration="4" minDur="4" maxDur="4" state="rrryyrrrrrrryyrrrr" />
+    <phase duration="31" minDur="15" maxDur="50" state="rrrrrGGggrrrrrGGgg" />
+    <phase duration="4" minDur="4" maxDur="4" state="rrrrryyggrrrrryygg" />
+    <phase duration="6" minDur="7" maxDur="30" state="rrrrrrrGGrrrrrrrGG" />
+    <phase duration="4" minDur="4" maxDur="4" state="rrrrrrryyrrrrrrryy" />
+  </tlLogic>
+  <tlLogic id="54553323" programID="actuated_local" offset="52" type="actuated">
+    <phase duration="8" minDur="8" maxDur="23" state="rrrGGrrrrrrrrGGrrrr" />
+    <phase duration="17" minDur="10" maxDur="32" state="GGGggrrrrrGGGggrrrr" />
+    <phase duration="3" minDur="3" maxDur="3" state="yyyyyrrrrryyyyyrrrr" />
+    <phase duration="8" minDur="8" maxDur="23" state="rrrrrrrrGGrrrrrrrrG" />
+    <phase duration="21" minDur="10" maxDur="32" state="rrrrrGGGggrrrrrGGGg" />
+    <phase duration="3" minDur="3" maxDur="3" state="rrrrryyyyyrrrrryyyy" />
+  <param key="detector-gap" value="3" />
+    <param key="build-all-detectors" value="true" />
+    </tlLogic>
+  <tlLogic id="54575333" programID="default" offset="0" type="actuated">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="90" />
+    <phase duration="29" minDur="7" maxDur="30" state="GGGrrrrrrGGGrrrrrr" />
+    <phase duration="5" minDur="5" maxDur="5" state="yyyrrrrrryyyrrrrrr" />
+    <phase duration="6" minDur="7" maxDur="30" state="rrrGGrrrrrrrGGrrrr" />
+    <phase duration="5" minDur="5" maxDur="5" state="rrryyrrrrrrryyrrrr" />
+    <phase duration="29" minDur="15" maxDur="50" state="rrrrrGGggrrrrrGGgg" />
+    <phase duration="5" minDur="5" maxDur="5" state="rrrrryyggrrrrryygg" />
+    <phase duration="6" minDur="7" maxDur="30" state="rrrrrrrGGrrrrrrrGG" />
+    <phase duration="5" minDur="5" maxDur="5" state="rrrrrrryyrrrrrrryy" />
+  </tlLogic>
+  <tlLogic id="941097614" programID="default" offset="0" type="actuated">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="90" />
+    <phase duration="39" minDur="15" maxDur="50" state="GGGGgrrr" />
+    <phase duration="6" minDur="6" maxDur="6" state="Gyyyyrrr" />
+    <phase duration="39" minDur="15" maxDur="50" state="GrrrrGGG" />
+    <phase duration="6" minDur="6" maxDur="6" state="Grrrryyy" />
+  </tlLogic>
+  <tlLogic id="GS_12740611226" programID="default" offset="0" type="actuated">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="90" />
+    <phase duration="24" minDur="15" maxDur="50" state="GGGGrrrrrrr" />
+    <phase duration="6" minDur="6" maxDur="6" state="yyyyrrrrrrr" />
+    <phase duration="24" minDur="15" maxDur="50" state="rrrrGGGGrrr" />
+    <phase duration="6" minDur="6" maxDur="6" state="rrrryyyyrrr" />
+    <phase duration="24" minDur="7" maxDur="30" state="rrrrrrrrGGG" />
+    <phase duration="6" minDur="6" maxDur="6" state="rrrrrrrryyy" />
+  </tlLogic>
+  <tlLogic id="GS_5217839177" programID="default" offset="0" type="actuated">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="90" />
+    <phase duration="90" minDur="15" maxDur="50" state="GG" />
+  </tlLogic>
+  <tlLogic id="GS_cluster_4689533026_54483626_5910945475_5910945476" programID="actuated_local" offset="52" type="actuated">
+    <phase duration="8" minDur="8" maxDur="23" state="rrrGGrrrrrrrrrrGGrrrrr" />
+    <phase duration="16" minDur="10" maxDur="32" state="GGGggrrrrrGGGGGggrrrrr" />
+    <phase duration="4" minDur="4" maxDur="4" state="yyyyyrrrrryyyyyyyrrrrr" />
+    <phase duration="8" minDur="8" maxDur="23" state="rrrrrrrrGGrrrrrrrrrrGG" />
+    <phase duration="20" minDur="10" maxDur="32" state="rrrrrGGGggrrrrrrrGGGgg" />
+    <phase duration="4" minDur="4" maxDur="4" state="rrrrryyyyyrrrrrrryyyyy" />
+  <param key="detector-gap" value="3" />
+    <param key="build-all-detectors" value="true" />
+    </tlLogic>
+  <tlLogic id="GS_cluster_54287971_5910976488" programID="actuated_local" offset="20" type="actuated">
+    <phase duration="8" minDur="8" maxDur="23" state="rrGrrrrrrrrGGrrrrr" />
+    <phase duration="21" minDur="10" maxDur="32" state="GGgrrrrrrGGggrrrrr" />
+    <phase duration="3" minDur="3" maxDur="3" state="yyyrrrrrryyyyrrrrr" />
+  <phase duration="8" minDur="8" maxDur="23" state="rrrrrrrGGrrrrrrrGG" />
+    <phase duration="17" minDur="10" maxDur="32" state="rrrGGGGggrrrrGGGgg" />
+    <phase duration="3" minDur="3" maxDur="3" state="rrryyyyyyrrrryyyyy" />
+    <param key="detector-gap" value="3" />
+    <param key="build-all-detectors" value="true" />
+    </tlLogic>
+  <tlLogic id="GS_cluster_5910933593_9013582988" programID="actuated_local" offset="21" type="actuated">
+    <phase duration="4" minDur="4" maxDur="18" state="rrrrrrrrGGrrrrrrrrGG" />
+    <phase duration="5" minDur="5" maxDur="5" state="rrrrrrrryyrrrrrrrryy" />
+  <phase duration="17" minDur="4" maxDur="18" state="rrrrrGGGrrrrrrrGGGrr" />
+    <phase duration="5" minDur="5" maxDur="5" state="rrrrryyyrrrrrrryyyrr" />
+    <phase duration="8" minDur="8" maxDur="22" state="rrrGGrrrrrrrrGGrrrrr" />
+    <phase duration="16" minDur="9" maxDur="30" state="GGGggrrrrrGGGggrrrrr" />
+    <phase duration="5" minDur="5" maxDur="5" state="yyyyyrrrrryyyyyrrrrr" />
+    <param key="detector-gap" value="3" />
+    <param key="build-all-detectors" value="true" />
+    </tlLogic>
+  <tlLogic id="GS_cluster_5910940017_5910976489" programID="actuated_local" offset="32" type="actuated">
+    <phase duration="24" minDur="10" maxDur="33" state="rrrrGGgGrrr" />
+    <phase duration="4" minDur="4" maxDur="4" state="rrrryyyGrrr" />
+  <phase duration="21" minDur="10" maxDur="33" state="GGggrrrGGGg" />
+    <phase duration="4" minDur="4" maxDur="4" state="GGggrrryyyy" />
+    <phase duration="4" minDur="10" maxDur="33" state="GGGGrrrrrrr" />
+    <phase duration="3" minDur="3" maxDur="3" state="yyyyrrrrrrr" />
+    <param key="detector-gap" value="3" />
+    <param key="build-all-detectors" value="true" />
+    </tlLogic>
+  <tlLogic id="GS_cluster_5910940035_5910945467" programID="actuated_local" offset="25" type="actuated">
+    <phase duration="24" minDur="10" maxDur="32" state="rrrrrGGggrrrrrGGgg" />
+    <phase duration="3" minDur="3" maxDur="3" state="rrrrryyyyrrrrryyyy" />
+  <phase duration="8" minDur="8" maxDur="23" state="rrrGGrrrrrrrGGrrrr" />
+    <phase duration="22" minDur="10" maxDur="32" state="GGGggrrrrGGGggrrrr" />
+    <phase duration="3" minDur="3" maxDur="3" state="yyyyyrrrryyyyyrrrr" />
+    <param key="detector-gap" value="3" />
+    <param key="build-all-detectors" value="true" />
+    </tlLogic>
+  <tlLogic id="5910940029" type="actuated" programID="actuated_local" offset="0">
+    <param key="detector-gap" value="3" />
+    <param key="build-all-detectors" value="true" />
+    <phase duration="54" state="GG" minDur="3" maxDur="54" />
+    <phase duration="3" state="yy" minDur="3" maxDur="3" />
+    <phase duration="3" state="rr" minDur="3" maxDur="3" />
+  </tlLogic>
+  <tlLogic id="5910975175" type="actuated" programID="actuated_local" offset="0">
+    <param key="detector-gap" value="3" />
+    <param key="build-all-detectors" value="true" />
+    <phase duration="54" state="GG" minDur="3" maxDur="54" />
+    <phase duration="3" state="yy" minDur="3" maxDur="3" />
+    <phase duration="3" state="rr" minDur="3" maxDur="3" />
+  </tlLogic>
+  <tlLogic id="4685892089" type="actuated" programID="actuated_local" offset="0">
+    <param key="detector-gap" value="3" />
+    <param key="build-all-detectors" value="true" />
+    <phase duration="54" state="GGGGGG" minDur="3" maxDur="54" />
+    <phase duration="3" state="yyyyyy" minDur="3" maxDur="3" />
+    <phase duration="3" state="rrrrrr" minDur="3" maxDur="3" />
+  </tlLogic>
+  <tlLogic id="joinedS_12329405771_54512111" type="actuated" programID="actuated_local" offset="45">
+    <phase duration="12" state="gGGrrrGGGGrrrr" minDur="7" maxDur="30" />
+    <phase duration="3" state="yyyrrryyyyrrrr" minDur="3" maxDur="3" />
+  <phase duration="42" state="rrrgGGrrrrGGgg" minDur="15" maxDur="50" />
+    <phase duration="3" state="rrryyyrrrryyyy" minDur="3" maxDur="3" />
+    <param key="detector-gap" value="3" />
+    <param key="build-all-detectors" value="true" />
+    <param key="jam-threshold" value="30" />
+    </tlLogic>
+</additional>

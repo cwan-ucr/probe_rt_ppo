@@ -1,0 +1,45 @@
+{
+  "end_time_s": 28800,
+  "results": [
+    {
+      "vehicles": 13022,
+      "arrived": 13022,
+      "VMT_mi": 19029.28605071286,
+      "VHT_h": 844.7936111111111,
+      "speed_mph": 22.525366906698874,
+      "mean_wait_s": 40.6919444017816,
+      "mean_timeloss_s": 78.09123790508367,
+      "scenario": "Baseline fixed"
+    },
+    {
+      "vehicles": 13022,
+      "arrived": 13022,
+      "VMT_mi": 19055.63106458181,
+      "VHT_h": 808.3404166666667,
+      "speed_mph": 23.57377000046718,
+      "mean_wait_s": 34.50349408692981,
+      "mean_timeloss_s": 67.82948318230713,
+      "scenario": "Optimized fixed"
+    },
+    {
+      "vehicles": 13022,
+      "arrived": 13022,
+      "VMT_mi": 19029.35246286572,
+      "VHT_h": 798.6344444444444,
+      "speed_mph": 23.827362562734375,
+      "mean_wait_s": 29.59679772692367,
+      "mean_timeloss_s": 65.32729457840578,
+      "scenario": "Actuated"
+    },
+    {
+      "vehicles": 13022,
+      "arrived": 13022,
+      "VMT_mi": 19030.13059358232,
+      "VHT_h": 736.5934722222222,
+      "speed_mph": 25.835323433114997,
+      "mean_wait_s": 22.614920903087082,
+      "mean_timeloss_s": 48.16405928428837,
+      "scenario": "Coord-actuated"
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 # Aggregate-Probe-Based Adaptive Corridor Signal Control
 
-Reproducibility guide for residual PPO offset control and two comparator methods
-on the University Avenue corridor, Riverside, California.
+Reproducibility guide for demand calibration, static signal timing, residual
+PPO offset control, and two comparator methods on the University Avenue
+corridor, Riverside, California.
 
-> **Release status.** This is a release-ready README for an RL-focused copy of
-> the project. The working `signal_control` repository also contains demand
-> calibration, figure-generation, paper, and legacy experiment files. Keep only
-> the files listed under [Required inputs and layout](#required-inputs-and-layout)
-> in a clean public release. The archived result bundles described below are
-> locally available; check their contents and data rights before uploading them.
+> **Publication check required.** This staged folder contains code, simulation
+> inputs, calibration summaries, and locally available result archives. The 32
+> processed approach CSVs include commercial probe statistics, and the raw
+> GRIDSMART count workbook is also present. Verify both data sources' terms
+> **before copying this folder into a public Git repository**. See
+> `PUBLISHING_CHECKLIST.md` for remaining checks.
 
 ## What this repository does
 
@@ -82,23 +83,33 @@ clean release:
 signal_control/
 ├── src/
 │   ├── rl/                         # environments, PPO, Diaz, GA, evaluation
+│   ├── demand_calibration/         # calibrated turning demand and GA/SPSA
+│   ├── data_processing/           # probe/count preprocessing and boundary map
+│   ├── signal_timing/             # fixed plan, 60-s cleanup, bandwidth GA, NEMA
 │   └── tsc_sumo_sim.py             # shared probe-segment parsing/collection
 ├── slurm/                          # HPCC launchers and scratch setup
 ├── data/
 │   ├── corridor-osm-network/
 │   │   ├── osm.sumocfg
+│   │   ├── osm.net.xml.gz          # source network for calibration and timing
 │   │   ├── osm_cr_tl.net.xml
 │   │   ├── detectors_v8_fixed.add.xml
+│   │   ├── fixed_timing.add.xml
+│   │   ├── fixed_timing_60s.add.xml
+│   │   ├── fixed_timing_optimized.add.xml
 │   │   ├── fixed_timing_optimized_nema.add.xml
 │   │   ├── coordinated_actuated_nema.add.xml
 │   │   └── coordinated_actuated_dual_loop_skipping_nema.add.xml
-│   ├── geojson-1-15-min-interval/processed/
-│   │                                  # segment/approach geometry inputs
+│   ├── geojson-1-15-min-interval/
+│   │   ├── corridor_layout.csv
+│   │   └── processed/              # commercial probe-derived approach summaries
+│   ├── GRIDSMART_TrafficVo_MayJune_15min.xls  # observed count workbook
 │   └── rl_scenarios/
 │       ├── train_lhs_n2000_seed42.json
 │       └── eval_lhs_n72_seed54321.json
 ├── outputs/
-│   ├── calibration/trips_turning_probe.xml
+│   ├── calibration/                # selected count, penetration, GA and trip outputs
+│   ├── optimization/               # historical bandwidth and baseline summaries
 │   └── rl/<backbone>/              # generated caches, logs, checkpoints, evals
 └── README.md
 ```
@@ -109,14 +120,81 @@ cannot be redistributed, document how authorized users can obtain it and keep
 the same expected relative path. The trip file is a simulated calibrated demand
 input, not observed individual trajectories.
 
+## Upstream demand calibration and static timing
+
+These are **upstream** of the formal RL experiments. The released RL jobs use
+`outputs/calibration/trips_turning_probe.xml` and the supplied NEMA signal plans
+as fixed inputs; they do not rerun demand calibration or static timing search.
+The static timing GA here optimizes a fixed plan's cycle and offsets for a
+bidirectional green-wave bandwidth objective. It is **not** the 310-gene GA
+trained on probe delay as a comparator to PPO.
+
+| Stage | Code | Included inputs and outputs |
+|---|---|---|
+| Observed-data preparation | `src/data_processing/` | Processed approach CSVs, `corridor_layout.csv`, selected GRIDSMART-derived counts, penetration estimates, boundary map |
+| Demand calibration | `src/demand_calibration/` | `calibration_result_turning.json`, selected GA log and speed summaries, `trips_turning_probe.xml` |
+| Fixed-time plan generation | `src/signal_timing/generate_fixed_timing.py` | `fixed_timing.add.xml`; its default demand input is TomTom last-segment summaries |
+| Cycle cleanup and bandwidth search | `clean_fixed_timing.py`, `optimize_bandwidth.py` | `fixed_timing_60s.add.xml`, `fixed_timing_optimized.add.xml`, `bandwidth_result.json` |
+| NEMA reordering | `make_nema_lead_left.py` | Fixed and optimized NEMA plans; offsets are compensated by program to preserve green windows |
+
+The selected GRIDSMART CSVs are derived measurements; the original
+`data/GRIDSMART_TrafficVo_MayJune_15min.xls` is included in this **local**
+staging bundle so `parse_gridsmart.py` can regenerate the count summaries.
+Check its redistribution terms before copying it into a public repository.
+The original `segment_flows_estimated.csv` and `fringe_flows.csv`
+were not available in the working tree when this bundle was assembled. The
+versions in this bundle were **regenerated** from the included processed
+approach CSVs, layout, penetration estimate and boundary map. The regenerated
+`approach_inflow.csv` differs from the older file in the working tree, which is
+preserved as `approach_inflow_historical.csv`. To regenerate the current
+derived files, run:
+
+```bash
+python src/data_processing/estimate_segment_flows.py
+python src/data_processing/compute_fringe_flows.py
+```
+
+`estimate_segment_flows.py` uses the archived `p_global=0.3478` for arterial
+directions and its default `P_CROSS=1.0` for cross streets; these are
+preprocessing assumptions, **not** the 10% probe penetration used in the RL
+experiments. `run_calibration.py` supports `--param-mode turning --optimizer ga`
+with the generated `fringe_flows.csv` for a new calibration. For a warm-start from the
+included turning parameters, use `--seed-from-result
+outputs/calibration/calibration_result_turning.json` and choose a new
+`--output-dir` so the archived result is not overwritten. This is a stochastic
+SUMO optimization and should not be expected to recreate the same numerical
+optimum without the full historical environment and random-state record.
+
+The fixed-plan sequence is:
+
+```text
+generate_fixed_timing.py → clean_fixed_timing.py → optimize_bandwidth.py
+                       → make_nema_lead_left.py
+```
+
+`fixed_timing_60s.add.xml` was **regenerated for this release** from the
+included `fixed_timing.add.xml`; it was absent from the working tree. The
+cleanup reported 146 programs meeting its 60-s/min-green rule and three minor
+programs whose 4-s phase does not meet the cleanup script's 7-s floor. The
+historical `fixed_timing_optimized.add.xml` and `bandwidth_result.json` were
+copied as available; the latter contains old absolute paths and was not
+recomputed from the regenerated intermediate. Treat the archived result as a
+record, **not** as a verified byte-for-byte output of the current files.
+`optimize_bandwidth.py` writes `outputs/optimization/bandwidth_result.json`
+at a fixed path even when `--output` is changed, so run it in a separate copy
+if preserving that record matters. `integrate_minor_signals_60s.py` also edits
+signal files in place; review its targets before running it. All timing scripts
+require SUMO's `sumolib` and `SUMO_HOME`.
+
 ## Software and machine setup
 
 The HPCC scripts used the UCR Slurm `epyc` partition, Python 3.9 in a project
 Conda environment, and SUMO 1.20.0. Core Python imports include `numpy`,
 `torch`, `traci`, and `sumolib`; analysis/plotting scripts may additionally need
 `pandas`, `scipy`, and `matplotlib`. Reproduce the published results with the
-same software versions where possible. The repository does **not** currently
-contain a lockfile, so a public release should add a tested environment export.
+same software versions where possible. The repository includes an unpinned
+`requirements.txt`, but not a tested HPCC Conda lockfile; exact package versions
+still need an environment export for bit-for-bit reproducibility.
 
 Set `SUMO_HOME` and make SUMO's Python tools importable before running a Python
 entry point. On the original HPCC, each Slurm script performs `module load sumo`
@@ -241,8 +319,11 @@ rollouts. Fitness is episode-total probe-estimated delay. Candidate selection
 is re-ranked on common **training-bank** scenarios; the 72 held-out scenarios
 are reserved for final evaluation. GA is open loop: one selected interval
 schedule is applied to every demand scenario and cannot react to observed
-traffic. A separate ten-gene static-offset GA exists in the codebase but is
-not the equal-dimensional comparator for the 31-decision PPO policy.
+traffic. A separate ten-gene static-offset GA and its launcher
+(`src/rl/train_ga_static_offset.py`, `slurm/train_ga_static_offset.sh`) are
+included for completeness, but no final result archive for that run was found
+locally and it is not the equal-dimensional comparator for the 31-decision PPO
+policy.
 
 The second launcher evaluates every generation's training-best schedule on
 the **first three fixed held-out scenarios** used by PPO online monitoring.

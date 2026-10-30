@@ -1,0 +1,67 @@
+{
+  "p_global": 0.34777,
+  "p_all_directions": 0.5166,
+  "p_source": "EB+WB (arterial only, volume-weighted)",
+  "mean_unweighted": 0.7347,
+  "std": 0.64967,
+  "min": 0.168,
+  "max": 3.21,
+  "cv_arterial": 0.2196,
+  "cv_all_directions": 0.8843,
+  "assumption_valid": true,
+  "n_samples": 96,
+  "n_samples_arterial": 48,
+  "notes": "NB/SB excluded because short Iowa Ave segments (10m) yield p>1.0, suggesting TomTom hit-counting overestimates vehicle count on short segments at intersections.",
+  "by_direction": {
+    "EB": {
+      "p": 0.3629,
+      "n": 24,
+      "total_volume": 3162,
+      "total_probe": 1147
+    },
+    "WB": {
+      "p": 0.3247,
+      "n": 24,
+      "total_volume": 2080,
+      "total_probe": 675
+    },
+    "NB": {
+      "p": 1.4193,
+      "n": 24,
+      "total_volume": 683,
+      "total_probe": 969
+    },
+    "SB": {
+      "p": 0.6412,
+      "n": 24,
+      "total_volume": 2154,
+      "total_probe": 1381
+    }
+  },
+  "by_timeset": {
+    "2": 0.81659,
+    "3": 0.59829,
+    "4": 0.77538,
+    "5": 0.67165,
+    "6": 0.8321,
+    "7": 0.61724,
+    "8": 0.67857,
+    "9": 0.54737,
+    "10": 0.62734,
+    "11": 0.56727,
+    "12": 0.63197,
+    "13": 0.42722,
+    "14": 0.44146,
+    "15": 0.42308,
+    "16": 0.50056,
+    "17": 0.43507,
+    "18": 0.39794,
+    "19": 0.45506,
+    "20": 0.4219,
+    "21": 0.44434,
+    "22": 0.48583,
+    "23": 0.43525,
+    "24": 0.40486,
+    "25": 0.42442
+  }
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-12-10T13:23:41.735520-08:00 by Eclipse SUMO sumo v1_25_0+0300-3154231df16
+-->
+
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="osm_cr_tl.net.xml"/>
+        <route-files value="../../outputs/calibration/trips_turning_probe.xml"/>
+        <additional-files value="detectors_v5_with_tl.add.xml"/>
+    </input>
+    <time>
+        <step-length value="0.5"/>
+    </time>
+
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="osm.view.xml"/>
+    </gui_only>
+
+</sumoConfiguration>

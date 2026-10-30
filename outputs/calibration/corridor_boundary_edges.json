@@ -1,0 +1,424 @@
+{
+  "arterial": {
+    "uni_west_entry_EB": {
+      "edge": "474890053#0",
+      "approach": "Lime_eb",
+      "first_mapped_seg": "337",
+      "seg_edge": "474890053#0",
+      "upstream_hops": 0,
+      "is_sumo_fringe": false,
+      "approach_edges": [
+        "474890053#0",
+        "-474890054#1",
+        "-474890056#1",
+        "474890057#0"
+      ]
+    },
+    "uni_east_entry_WB": {
+      "edge": "1366181508",
+      "approach": "Iowa_wb",
+      "first_mapped_seg": "661",
+      "seg_edge": "1366181508",
+      "upstream_hops": 0,
+      "is_sumo_fringe": false,
+      "approach_edges": [
+        "1366181508",
+        "626091622#0",
+        "652562907#0",
+        "626091624#0"
+      ]
+    },
+    "uni_east_exit_EB": {
+      "edge": "626091619#0",
+      "approach": "Iowa_eb",
+      "last_mapped_seg": "435",
+      "seg_edge": "626091619#0",
+      "downstream_hops": 0,
+      "is_sumo_fringe": false,
+      "approach_edges": [
+        "474689216",
+        "474689218",
+        "626091626",
+        "626112463",
+        "626112459",
+        "626091619#0"
+      ]
+    },
+    "uni_west_exit_WB": {
+      "edge": "-474889129#1",
+      "approach": "Lime_wb",
+      "last_mapped_seg": "473",
+      "seg_edge": "-474889129#1",
+      "downstream_hops": 0,
+      "is_sumo_fringe": false,
+      "approach_edges": [
+        "-758522546",
+        "1332701128#0",
+        "1332701128#1",
+        "-610355613#1",
+        "-474889129#1"
+      ]
+    }
+  },
+  "cross": {
+    "Iowa": {
+      "south_entry_NB": {
+        "edge": "1109915091",
+        "approach": "Iowa_nb",
+        "first_mapped_seg": "439",
+        "seg_edge": "1109915091",
+        "upstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "1109915091",
+          "1109915079",
+          "-1247434490",
+          "-626799488",
+          "1214656310#0"
+        ]
+      },
+      "north_exit_NB": {
+        "edge": "1214656310#0",
+        "approach": "Iowa_nb",
+        "last_mapped_seg": "312",
+        "seg_edge": "1214656310#0",
+        "downstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "1109915091",
+          "1109915079",
+          "-1247434490",
+          "-626799488",
+          "1214656310#0"
+        ]
+      },
+      "north_entry_SB": {
+        "edge": "-474688041",
+        "approach": "Iowa_sb",
+        "first_mapped_seg": "304",
+        "seg_edge": "-474688041",
+        "upstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "-474688041",
+          "1351950253",
+          "973970332#0",
+          "1352296463",
+          "1351943712#0"
+        ]
+      },
+      "south_exit_SB": {
+        "edge": "1351943712#0",
+        "approach": "Iowa_sb",
+        "last_mapped_seg": "29",
+        "seg_edge": "1351943712#0",
+        "downstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "474688706",
+          "1351950253",
+          "973970332#0",
+          "1352296463",
+          "1351943712#0"
+        ]
+      }
+    },
+    "Chicago": {
+      "south_entry_NB": {
+        "edge": "125135481",
+        "approach": "Chicago_nb",
+        "first_mapped_seg": "333",
+        "seg_edge": "125135481",
+        "upstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "125135481",
+          "475159104",
+          "475159095#0",
+          "475159096"
+        ]
+      },
+      "north_exit_NB": {
+        "edge": "475159096",
+        "approach": "Chicago_nb",
+        "last_mapped_seg": "71",
+        "seg_edge": "475159096",
+        "downstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "125135481",
+          "475159104",
+          "475159095#0",
+          "475159096"
+        ]
+      },
+      "north_entry_SB": {
+        "edge": "474688713",
+        "approach": "Chicago_sb",
+        "first_mapped_seg": "513",
+        "seg_edge": "474688713",
+        "upstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "474688713",
+          "474688711",
+          "474688712"
+        ]
+      },
+      "south_exit_SB": {
+        "edge": "474688711",
+        "approach": "Chicago_sb",
+        "last_mapped_seg": "167",
+        "seg_edge": "474688711",
+        "downstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "474688713",
+          "474688711",
+          "474688712"
+        ]
+      }
+    },
+    "Kansas": {
+      "south_entry_NB": {
+        "edge": "-125135491",
+        "approach": "Kansas_nb",
+        "first_mapped_seg": "440",
+        "seg_edge": "-125135491",
+        "upstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "-125135491",
+          "-1411342820",
+          "514518466#0"
+        ]
+      },
+      "north_exit_NB": {
+        "edge": "514518466#0",
+        "approach": "Kansas_nb",
+        "last_mapped_seg": "668",
+        "seg_edge": "514518466#0",
+        "downstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "-125135491",
+          "-1411342820",
+          "514518466#0"
+        ]
+      },
+      "north_entry_SB": {
+        "edge": "80565462#1",
+        "approach": "Kansas_sb",
+        "first_mapped_seg": "567",
+        "seg_edge": "80565462#1",
+        "upstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "80565462#1",
+          "-1351960467",
+          "-514518467#1"
+        ]
+      },
+      "south_exit_SB": {
+        "edge": "-514518467#1",
+        "approach": "Kansas_sb",
+        "last_mapped_seg": "474",
+        "seg_edge": "-514518467#1",
+        "downstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "80565462#1",
+          "-1351960467",
+          "-514518467#1"
+        ]
+      }
+    },
+    "Park": {
+      "south_entry_NB": {
+        "edge": "1378974918#2",
+        "approach": "Park_nb",
+        "first_mapped_seg": "350",
+        "seg_edge": "1378974918#2",
+        "upstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "1378974918#2",
+          "-1378974917#1"
+        ]
+      },
+      "north_exit_NB": {
+        "edge": "-1378974917#1",
+        "approach": "Park_nb",
+        "last_mapped_seg": "532",
+        "seg_edge": "-1378974917#1",
+        "downstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "1378974918#2",
+          "-1378974917#1"
+        ]
+      },
+      "north_entry_SB": {
+        "edge": "7156708",
+        "approach": "Park_sb",
+        "first_mapped_seg": "356",
+        "seg_edge": "7156708",
+        "upstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "7156708",
+          "-610399401#1"
+        ]
+      },
+      "south_exit_SB": {
+        "edge": "-610399401#1",
+        "approach": "Park_sb",
+        "last_mapped_seg": "630",
+        "seg_edge": "-610399401#1",
+        "downstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "7156708",
+          "-610399401#1"
+        ]
+      }
+    },
+    "Lime": {
+      "south_entry_NB": {
+        "edge": "-474875591#1",
+        "approach": "Lime_nb",
+        "first_mapped_seg": "530",
+        "seg_edge": "-474875591#1",
+        "upstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "-474875591#1",
+          "474875590#0",
+          "474875589",
+          "184965515#0",
+          "474875588#0",
+          "474889131#0",
+          "-474889127#1"
+        ]
+      },
+      "north_exit_NB": {
+        "edge": "-474889127#1",
+        "approach": "Lime_nb",
+        "last_mapped_seg": "365",
+        "seg_edge": "-474889127#1",
+        "downstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "-474875591#1",
+          "474875590#0",
+          "474875589",
+          "184965515#0",
+          "474875588#0",
+          "474889131#0",
+          "-474889127#1"
+        ]
+      },
+      "north_entry_SB": {
+        "edge": "80565150",
+        "approach": "Lime_sb",
+        "first_mapped_seg": "451",
+        "seg_edge": "80565150",
+        "upstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "-1450151788",
+          "80565150",
+          "474886423#0",
+          "474889126#0",
+          "184965514",
+          "474889127#0"
+        ]
+      },
+      "south_exit_SB": {
+        "edge": "474889127#0",
+        "approach": "Lime_sb",
+        "last_mapped_seg": "366",
+        "seg_edge": "474889127#0",
+        "downstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "-1450151788",
+          "80565150",
+          "474886423#0",
+          "474889126#0",
+          "184965514",
+          "474889127#0"
+        ]
+      }
+    },
+    "Victoria": {
+      "south_entry_NB": {
+        "edge": "-610399410#2",
+        "approach": "Victoria_nb",
+        "first_mapped_seg": "361",
+        "seg_edge": "-610399410#2",
+        "upstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "-610399410#2"
+        ]
+      },
+      "north_exit_NB": {
+        "edge": "-610399410#2",
+        "approach": "Victoria_nb",
+        "last_mapped_seg": "400",
+        "seg_edge": "-610399410#2",
+        "downstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "-610399410#2"
+        ]
+      }
+    },
+    "Mulberry": {
+      "south_entry_NB": {
+        "edge": "7210662",
+        "approach": "Mulberry_nb",
+        "first_mapped_seg": "134",
+        "seg_edge": "7210662",
+        "upstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "7210662"
+        ]
+      },
+      "north_exit_NB": {
+        "edge": "474881769#0",
+        "approach": "Mulberry_nb",
+        "last_mapped_seg": "129",
+        "seg_edge": "474881769#0",
+        "downstream_hops": 0,
+        "is_sumo_fringe": false,
+        "approach_edges": [
+          "474881769#0"
+        ]
+      }
+    },
+    "Ottawa": {
+      "south_entry_NB": {
+        "edge": "-80798171#5",
+        "approach": "Ottawa_nb",
+        "is_sumo_fringe": true,
+        "synthetic_demand": true,
+        "approach_edges": [
+          "-80798171#5"
+        ]
+      },
+      "north_exit_NB": {
+        "edge": "-80798171#1",
+        "approach": "Ottawa_nb",
+        "is_sumo_fringe": false,
+        "synthetic_demand": true,
+        "arterial_turn_exit": false,
+        "approach_edges": [
+          "-80798171#1"
+        ]
+      }
+    }
+  }
+}

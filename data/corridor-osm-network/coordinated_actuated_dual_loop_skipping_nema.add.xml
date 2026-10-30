@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='utf-8'?>
+<additional>
+  <inductionLoop id="dual_54553323_0_stop" pos="-2.3" lane="-474889129#1_3" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54553323_0_advance" pos="-8.3" lane="-474889129#1_3" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54553323_1_stop" pos="-2.3" lane="474889127#0_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54553323_1_advance" pos="-8.3" lane="474889127#0_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54553323_2_stop" pos="-2.3" lane="474889127#0_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54553323_2_advance" pos="-8.3" lane="474889127#0_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54553323_3_stop" pos="-2.3" lane="474889127#0_2" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54553323_3_advance" pos="-8.3" lane="474889127#0_2" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54553323_4_stop" pos="-2.3" lane="474889131#0_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54553323_4_advance" pos="-8.3" lane="474889131#0_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54553323_5_stop" pos="-2.3" lane="474889131#0_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54553323_5_advance" pos="-8.3" lane="474889131#0_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54553323_6_stop" pos="-2.3" lane="474889131#0_2" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54553323_6_advance" pos="-8.3" lane="474889131#0_2" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54553323_7_stop" pos="-2.3" lane="474890058#0_2" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54553323_7_advance" pos="-8.3" lane="474890058#0_2" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54424419_0_stop" pos="-2.3" lane="-1378974917#1_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54424419_0_advance" pos="-8.3" lane="-1378974917#1_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54424419_1_stop" pos="-2.3" lane="474881766#0_2" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54424419_1_advance" pos="-8.3" lane="474881766#0_2" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54424419_2_stop" pos="-2.3" lane="610399401#0_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54424419_2_advance" pos="-8.3" lane="610399401#0_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54424419_3_stop" pos="-2.3" lane="626288792#0_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_54424419_3_advance" pos="-8.3" lane="626288792#0_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910940017_5910976489_0_stop" pos="-2.3" lane="-610399410#2_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910940017_5910976489_0_advance" pos="-8.3" lane="-610399410#2_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_54287971_5910976488_0_stop" pos="-2.3" lane="-1411342820_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_54287971_5910976488_0_advance" pos="-8.3" lane="-1411342820_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_54287971_5910976488_1_stop" pos="-2.3" lane="-1411342820_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_54287971_5910976488_1_advance" pos="-8.3" lane="-1411342820_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_54287971_5910976488_2_stop" pos="-2.3" lane="514518467#0_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_54287971_5910976488_2_advance" pos="-8.3" lane="514518467#0_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_54287971_5910976488_3_stop" pos="-2.3" lane="514518467#0_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_54287971_5910976488_3_advance" pos="-8.3" lane="514518467#0_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_54287971_5910976488_4_stop" pos="-2.3" lane="626283149#0_2" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_54287971_5910976488_4_advance" pos="-8.3" lane="626283149#0_2" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_54287971_5910976488_5_stop" pos="-2.3" lane="626288019#0_3" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_54287971_5910976488_5_advance" pos="-8.3" lane="626288019#0_3" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910940035_5910945467_0_stop" pos="-2.3" lane="-80798171#5_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910940035_5910945467_0_advance" pos="-8.3" lane="-80798171#5_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910940035_5910945467_1_stop" pos="-2.3" lane="7247663_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910940035_5910945467_1_advance" pos="-8.3" lane="7247663_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_0_stop" pos="-2.3" lane="474688711_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_0_advance" pos="-8.3" lane="474688711_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_1_stop" pos="-2.3" lane="474688711_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_1_advance" pos="-8.3" lane="474688711_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_2_stop" pos="-2.3" lane="474688711_2" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_2_advance" pos="-8.3" lane="474688711_2" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_3_stop" pos="-2.3" lane="474688711_3" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_3_advance" pos="-8.3" lane="474688711_3" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_4_stop" pos="-2.3" lane="475159103#0_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_4_advance" pos="-8.3" lane="475159103#0_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_5_stop" pos="-2.3" lane="475159103#0_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_5_advance" pos="-8.3" lane="475159103#0_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_6_stop" pos="-2.3" lane="475159103#0_2" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_6_advance" pos="-8.3" lane="475159103#0_2" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_7_stop" pos="-2.3" lane="475159103#0_4" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_7_advance" pos="-8.3" lane="475159103#0_4" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_8_stop" pos="-2.3" lane="626283153#0_3" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_8_advance" pos="-8.3" lane="626283153#0_3" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_9_stop" pos="-2.3" lane="626283153#0_4" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_9_advance" pos="-8.3" lane="626283153#0_4" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_10_stop" pos="-2.3" lane="626284343#0_3" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_10_advance" pos="-8.3" lane="626284343#0_3" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_11_stop" pos="-2.3" lane="626284343#0_4" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_11_advance" pos="-8.3" lane="626284343#0_4" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910933593_9013582988_0_stop" pos="-2.3" lane="1214656310#0_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910933593_9013582988_0_advance" pos="-8.3" lane="1214656310#0_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910933593_9013582988_1_stop" pos="-2.3" lane="1214656310#0_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910933593_9013582988_1_advance" pos="-8.3" lane="1214656310#0_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910933593_9013582988_2_stop" pos="-2.3" lane="1214656310#0_2" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910933593_9013582988_2_advance" pos="-8.3" lane="1214656310#0_2" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910933593_9013582988_3_stop" pos="-2.3" lane="1214656310#0_3" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910933593_9013582988_3_advance" pos="-8.3" lane="1214656310#0_3" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910933593_9013582988_4_stop" pos="-2.3" lane="1351943712#0_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910933593_9013582988_4_advance" pos="-8.3" lane="1351943712#0_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910933593_9013582988_5_stop" pos="-2.3" lane="1351943712#0_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910933593_9013582988_5_advance" pos="-8.3" lane="1351943712#0_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910933593_9013582988_6_stop" pos="-2.3" lane="1351943712#0_2" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910933593_9013582988_6_advance" pos="-8.3" lane="1351943712#0_2" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910933593_9013582988_7_stop" pos="-2.3" lane="626091619#0_3" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910933593_9013582988_7_advance" pos="-8.3" lane="626091619#0_3" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910933593_9013582988_8_stop" pos="-2.3" lane="626091619#0_4" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910933593_9013582988_8_advance" pos="-8.3" lane="626091619#0_4" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910933593_9013582988_9_stop" pos="-2.3" lane="626091624#0_3" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_GS_cluster_5910933593_9013582988_9_advance" pos="-8.3" lane="626091624#0_3" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_joinedS_12329405771_54512111_0_stop" pos="-2.3" lane="1332701129#0_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_joinedS_12329405771_54512111_0_advance" pos="-8.3" lane="1332701129#0_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_joinedS_12329405771_54512111_1_stop" pos="-2.3" lane="474881769#0_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_joinedS_12329405771_54512111_1_advance" pos="-8.3" lane="474881769#0_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_joinedS_12329405771_54512111_2_stop" pos="-2.3" lane="474881769#0_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_joinedS_12329405771_54512111_2_advance" pos="-8.3" lane="474881769#0_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_joinedS_12329405771_54512111_3_stop" pos="-2.3" lane="7210662_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_joinedS_12329405771_54512111_3_advance" pos="-8.3" lane="7210662_0" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_joinedS_12329405771_54512111_4_stop" pos="-2.3" lane="7210662_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <inductionLoop id="dual_joinedS_12329405771_54512111_4_advance" pos="-8.3" lane="7210662_1" length="1.8" period="3600" file="NUL" friendlyPos="true" />
+  <tlLogic id="54553323" type="actuated" programID="coord_dual_loop_skip" offset="46">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="60" />
+    <param key="build-all-detectors" value="true" />
+    <param key="inactive-threshold" value="60" />
+    <param key="detector-gap" value="3" />
+    <param key="detector-length" value="0" />
+    <param key="show-conditions" value="call1 call2 call4" />
+    <param key="-474889129#1_3" value="dual_54553323_0_advance" />
+    <param key="474889127#0_0" value="dual_54553323_1_advance" />
+    <param key="474889127#0_1" value="dual_54553323_2_advance" />
+    <param key="474889127#0_2" value="dual_54553323_3_advance" />
+    <param key="474889131#0_0" value="dual_54553323_4_advance" />
+    <param key="474889131#0_1" value="dual_54553323_5_advance" />
+    <param key="474889131#0_2" value="dual_54553323_6_advance" />
+    <param key="474890058#0_2" value="dual_54553323_7_advance" />
+    <param key="dual-loop-length" value="1.8" />
+    <param key="dual-loop-center-spacing" value="6" />
+    <param key="dual-loop-stopbar-setback" value="0.5" />
+    <param key="extra-detectors" value="dual_54553323_0_stop dual_54553323_0_advance dual_54553323_1_stop dual_54553323_1_advance dual_54553323_2_stop dual_54553323_2_advance dual_54553323_3_stop dual_54553323_3_advance dual_54553323_4_stop dual_54553323_4_advance dual_54553323_5_stop dual_54553323_5_advance dual_54553323_6_stop dual_54553323_6_advance dual_54553323_7_stop dual_54553323_7_advance" />
+    <phase duration="3" state="rrrrryyyyyrrrrryyyy" minDur="3" maxDur="3" next="1" earlyTarget="0" finalTarget="call1" />
+    <phase duration="14" state="rrrGGrrrrrrrrGGrrrr" minDur="5" maxDur="14" next="8 9 10" name="service_1" />
+    <phase duration="9" state="GGGggrrrrrGGGggrrrr" minDur="5" maxDur="9" next="3 11" name="service_2" />
+    <phase duration="3" state="yyyyyrrrrryyyyyrrrr" minDur="3" maxDur="3" next="4" earlyTarget="gap2 and call4" finalTarget="call4" />
+    <phase duration="11" state="rrrrrrrrGGrrrrrrrrG" minDur="5" maxDur="11" next="12" name="service_4" />
+    <phase duration="20" state="rrrrrGGGggrrrrrGGGg" minDur="20" maxDur="86400" earliestEnd="60" latestEnd="60" earlyTarget="0" finalTarget="1" next="0 6 7 5" name="coordinated_main" />
+    <phase duration="3" state="rrrrryyyyyrrrrryyyy" minDur="3" maxDur="3" next="2" name="skip_5_to_2" earlyTarget="0" finalTarget="call2" />
+    <phase duration="3" state="rrrrryyyggrrrrryyyg" minDur="3" maxDur="3" next="4" name="skip_5_to_4" earlyTarget="0" finalTarget="call4" />
+    <phase duration="0.5" state="rrrGGrrrrrrrrGGrrrr" minDur="0.5" maxDur="0.5" next="2" name="direct_1_to_2" earlyTarget="gap1 and call2" finalTarget="call2" />
+    <phase duration="3" state="rrryyrrrrrrrryyrrrr" minDur="3" maxDur="3" next="4" name="skip_1_to_4" earlyTarget="gap1 and call4" finalTarget="call4" />
+    <phase duration="3" state="rrryyrrrrrrrryyrrrr" minDur="3" maxDur="3" next="5" name="skip_1_to_5" earlyTarget="gap1" finalTarget="1" />
+    <phase duration="3" state="yyyyyrrrrryyyyyrrrr" minDur="3" maxDur="3" next="5" name="skip_2_to_5" earlyTarget="gap2" finalTarget="1" />
+    <phase duration="0.5" state="rrrrrrrrGGrrrrrrrrG" minDur="0.5" maxDur="0.5" next="5" name="direct_4_to_5" earlyTarget="gap4" finalTarget="1" />
+    <condition id="call1" value="0" />
+    <condition id="detect1" value="( a:dual_54553323_3_stop &gt; 0 or a:dual_54553323_3_advance &gt; 0 or ( r:3 &gt; 3 and z:dual_54553323_3_advance &lt;= 3 ) or ( g:3 = 0 and r:3 = 0 and z:dual_54553323_3_advance &lt;= 3 ) ) or ( a:dual_54553323_6_stop &gt; 0 or a:dual_54553323_6_advance &gt; 0 or ( r:13 &gt; 3 and z:dual_54553323_6_advance &lt;= 3 ) or ( g:13 = 0 and r:13 = 0 and z:dual_54553323_6_advance &lt;= 3 ) )" />
+    <condition id="gap1" value="z:dual_54553323_3_advance &gt; 3 and z:dual_54553323_6_advance &gt; 3" />
+    <condition id="active1" value="g:3 &gt; 0 and r:0 &gt; 0" />
+    <assignment id="call1" check="detect1" value="1" />
+    <assignment id="call1" check="active1" value="0" />
+    <condition id="call2" value="0" />
+    <condition id="detect2" value="( a:dual_54553323_1_stop &gt; 0 or a:dual_54553323_1_advance &gt; 0 or ( r:0 &gt; 3 and z:dual_54553323_1_advance &lt;= 3 ) or ( g:0 = 0 and r:0 = 0 and z:dual_54553323_1_advance &lt;= 3 ) ) or ( a:dual_54553323_2_stop &gt; 0 or a:dual_54553323_2_advance &gt; 0 or ( r:2 &gt; 3 and z:dual_54553323_2_advance &lt;= 3 ) or ( g:2 = 0 and r:2 = 0 and z:dual_54553323_2_advance &lt;= 3 ) ) or ( a:dual_54553323_4_stop &gt; 0 or a:dual_54553323_4_advance &gt; 0 or ( r:10 &gt; 3 and z:dual_54553323_4_advance &lt;= 3 ) or ( g:10 = 0 and r:10 = 0 and z:dual_54553323_4_advance &lt;= 3 ) ) or ( a:dual_54553323_5_stop &gt; 0 or a:dual_54553323_5_advance &gt; 0 or ( r:12 &gt; 3 and z:dual_54553323_5_advance &lt;= 3 ) or ( g:12 = 0 and r:12 = 0 and z:dual_54553323_5_advance &lt;= 3 ) )" />
+    <condition id="gap2" value="z:dual_54553323_1_advance &gt; 3 and z:dual_54553323_2_advance &gt; 3 and z:dual_54553323_4_advance &gt; 3 and z:dual_54553323_5_advance &gt; 3" />
+    <condition id="active2" value="g:0 &gt; 0" />
+    <assignment id="call2" check="detect2" value="1" />
+    <assignment id="call2" check="active2" value="0" />
+    <condition id="call4" value="0" />
+    <condition id="detect4" value="( a:dual_54553323_0_stop &gt; 0 or a:dual_54553323_0_advance &gt; 0 or ( r:8 &gt; 3 and z:dual_54553323_0_advance &lt;= 3 ) or ( g:8 = 0 and r:8 = 0 and z:dual_54553323_0_advance &lt;= 3 ) ) or ( a:dual_54553323_7_stop &gt; 0 or a:dual_54553323_7_advance &gt; 0 or ( r:18 &gt; 3 and z:dual_54553323_7_advance &lt;= 3 ) or ( g:18 = 0 and r:18 = 0 and z:dual_54553323_7_advance &lt;= 3 ) )" />
+    <condition id="gap4" value="z:dual_54553323_0_advance &gt; 3 and z:dual_54553323_7_advance &gt; 3" />
+    <condition id="active4" value="g:8 &gt; 0 and r:5 &gt; 0" />
+    <assignment id="call4" check="detect4" value="1" />
+    <assignment id="call4" check="active4" value="0" />
+  </tlLogic>
+  <tlLogic id="54424419" type="actuated" programID="coord_dual_loop_skip" offset="37">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="60" />
+    <param key="build-all-detectors" value="true" />
+    <param key="inactive-threshold" value="60" />
+    <param key="detector-gap" value="3" />
+    <param key="detector-length" value="0" />
+    <param key="show-conditions" value="call1 call3" />
+    <param key="jam-threshold" value="30" />
+    <param key="-1378974917#1_0" value="dual_54424419_0_advance" />
+    <param key="474881766#0_2" value="dual_54424419_1_advance" />
+    <param key="610399401#0_0" value="dual_54424419_2_advance" />
+    <param key="626288792#0_1" value="dual_54424419_3_advance" />
+    <param key="dual-loop-length" value="1.8" />
+    <param key="dual-loop-center-spacing" value="6" />
+    <param key="dual-loop-stopbar-setback" value="0.5" />
+    <param key="extra-detectors" value="dual_54424419_0_stop dual_54424419_0_advance dual_54424419_1_stop dual_54424419_1_advance dual_54424419_2_stop dual_54424419_2_advance dual_54424419_3_stop dual_54424419_3_advance" />
+    <phase duration="3" state="rrrryyyyyrrrryyyyy" minDur="3" maxDur="3" next="1" earlyTarget="0" finalTarget="call1" />
+    <phase duration="8" state="GGggrrrrrGGggrrrrr" minDur="5" maxDur="8" next="2 6" name="service_1" />
+    <phase duration="3" state="yyyyrrrrryyyyrrrrr" minDur="3" maxDur="3" next="3" earlyTarget="gap1 and call3" finalTarget="call3" />
+    <phase duration="12" state="rrrrrrrGGrrrrrrrGG" minDur="5" maxDur="12" next="7" name="service_3" />
+    <phase duration="34" state="rrrrGGGggrrrrGGGgg" minDur="34" maxDur="86400" earliestEnd="60" latestEnd="60" earlyTarget="0" finalTarget="1" next="0 5 4" name="coordinated_main" />
+    <phase duration="3" state="rrrryyyggrrrryyygg" minDur="3" maxDur="3" next="3" name="skip_4_to_3" earlyTarget="0" finalTarget="call3" />
+    <phase duration="3" state="yyyyrrrrryyyyrrrrr" minDur="3" maxDur="3" next="4" name="skip_1_to_4" earlyTarget="gap1" finalTarget="1" />
+    <phase duration="0.5" state="rrrrrrrGGrrrrrrrGG" minDur="0.5" maxDur="0.5" next="4" name="direct_3_to_4" earlyTarget="gap3" finalTarget="1" />
+    <condition id="call1" value="0" />
+    <condition id="detect1" value="( a:dual_54424419_2_stop &gt; 0 or a:dual_54424419_2_advance &gt; 0 or ( r:0 &gt; 3 and z:dual_54424419_2_advance &lt;= 3 ) or ( g:0 = 0 and r:0 = 0 and z:dual_54424419_2_advance &lt;= 3 ) ) or ( a:dual_54424419_0_stop &gt; 0 or a:dual_54424419_0_advance &gt; 0 or ( r:9 &gt; 3 and z:dual_54424419_0_advance &lt;= 3 ) or ( g:9 = 0 and r:9 = 0 and z:dual_54424419_0_advance &lt;= 3 ) )" />
+    <condition id="gap1" value="z:dual_54424419_2_advance &gt; 3 and z:dual_54424419_0_advance &gt; 3" />
+    <condition id="active1" value="g:0 &gt; 0" />
+    <assignment id="call1" check="detect1" value="1" />
+    <assignment id="call1" check="active1" value="0" />
+    <condition id="call3" value="0" />
+    <condition id="detect3" value="( a:dual_54424419_3_stop &gt; 0 or a:dual_54424419_3_advance &gt; 0 or ( r:7 &gt; 3 and z:dual_54424419_3_advance &lt;= 3 ) or ( g:7 = 0 and r:7 = 0 and z:dual_54424419_3_advance &lt;= 3 ) ) or ( a:dual_54424419_1_stop &gt; 0 or a:dual_54424419_1_advance &gt; 0 or ( r:16 &gt; 3 and z:dual_54424419_1_advance &lt;= 3 ) or ( g:16 = 0 and r:16 = 0 and z:dual_54424419_1_advance &lt;= 3 ) )" />
+    <condition id="gap3" value="z:dual_54424419_3_advance &gt; 3 and z:dual_54424419_1_advance &gt; 3" />
+    <condition id="active3" value="g:7 &gt; 0 and r:4 &gt; 0" />
+    <assignment id="call3" check="detect3" value="1" />
+    <assignment id="call3" check="active3" value="0" />
+  </tlLogic>
+  <tlLogic id="GS_cluster_5910940017_5910976489" type="actuated" programID="coord_dual_loop_skip" offset="3">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="60" />
+    <param key="build-all-detectors" value="true" />
+    <param key="inactive-threshold" value="60" />
+    <param key="detector-gap" value="3" />
+    <param key="detector-length" value="0" />
+    <param key="show-conditions" value="call1" />
+    <param key="-610399410#2_0" value="dual_GS_cluster_5910940017_5910976489_0_advance" />
+    <param key="dual-loop-length" value="1.8" />
+    <param key="dual-loop-center-spacing" value="6" />
+    <param key="dual-loop-stopbar-setback" value="0.5" />
+    <param key="extra-detectors" value="dual_GS_cluster_5910940017_5910976489_0_stop dual_GS_cluster_5910940017_5910976489_0_advance" />
+    <phase duration="3" state="yyyyrrrGyyy" minDur="3" maxDur="3" next="1" earlyTarget="0" finalTarget="call1" />
+    <phase duration="8" state="rrrrGGgGrrr" minDur="5" maxDur="8" next="2" name="service_1" />
+    <phase duration="3" state="rrrryyyGrrr" minDur="3" maxDur="3" next="3" earlyTarget="gap1" finalTarget="1" />
+    <phase duration="46" state="GGggrrrGGGg" minDur="46" maxDur="86400" earliestEnd="60" latestEnd="60" earlyTarget="0" finalTarget="1" next="0 3" name="coordinated_main" />
+    <condition id="call1" value="0" />
+    <condition id="detect1" value="( a:dual_GS_cluster_5910940017_5910976489_0_stop &gt; 0 or a:dual_GS_cluster_5910940017_5910976489_0_advance &gt; 0 or ( r:4 &gt; 3 and z:dual_GS_cluster_5910940017_5910976489_0_advance &lt;= 3 ) or ( g:4 = 0 and r:4 = 0 and z:dual_GS_cluster_5910940017_5910976489_0_advance &lt;= 3 ) )" />
+    <condition id="gap1" value="z:dual_GS_cluster_5910940017_5910976489_0_advance &gt; 3" />
+    <condition id="active1" value="g:4 &gt; 0" />
+    <assignment id="call1" check="detect1" value="1" />
+    <assignment id="call1" check="active1" value="0" />
+  </tlLogic>
+  <tlLogic id="GS_cluster_54287971_5910976488" type="actuated" programID="coord_dual_loop_skip" offset="28">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="60" />
+    <param key="build-all-detectors" value="true" />
+    <param key="inactive-threshold" value="60" />
+    <param key="detector-gap" value="3" />
+    <param key="detector-length" value="0" />
+    <param key="show-conditions" value="call1 call2 call4" />
+    <param key="-1411342820_0" value="dual_GS_cluster_54287971_5910976488_0_advance" />
+    <param key="-1411342820_1" value="dual_GS_cluster_54287971_5910976488_1_advance" />
+    <param key="514518467#0_0" value="dual_GS_cluster_54287971_5910976488_2_advance" />
+    <param key="514518467#0_1" value="dual_GS_cluster_54287971_5910976488_3_advance" />
+    <param key="626283149#0_2" value="dual_GS_cluster_54287971_5910976488_4_advance" />
+    <param key="626288019#0_3" value="dual_GS_cluster_54287971_5910976488_5_advance" />
+    <param key="dual-loop-length" value="1.8" />
+    <param key="dual-loop-center-spacing" value="6" />
+    <param key="dual-loop-stopbar-setback" value="0.5" />
+    <param key="extra-detectors" value="dual_GS_cluster_54287971_5910976488_0_stop dual_GS_cluster_54287971_5910976488_0_advance dual_GS_cluster_54287971_5910976488_1_stop dual_GS_cluster_54287971_5910976488_1_advance dual_GS_cluster_54287971_5910976488_2_stop dual_GS_cluster_54287971_5910976488_2_advance dual_GS_cluster_54287971_5910976488_3_stop dual_GS_cluster_54287971_5910976488_3_advance dual_GS_cluster_54287971_5910976488_4_stop dual_GS_cluster_54287971_5910976488_4_advance dual_GS_cluster_54287971_5910976488_5_stop dual_GS_cluster_54287971_5910976488_5_advance" />
+    <phase duration="3" state="rrryyyyyyrrrryyyyy" minDur="3" maxDur="3" next="1" earlyTarget="0" finalTarget="call1" />
+    <phase duration="11" state="rrGrrrrrrrrGGrrrrr" minDur="5" maxDur="11" next="8 9 10" name="service_1" />
+    <phase duration="9" state="GGgrrrrrrGGggrrrrr" minDur="5" maxDur="9" next="3 11" name="service_2" />
+    <phase duration="3" state="yyyrrrrrryyyyrrrrr" minDur="3" maxDur="3" next="4" earlyTarget="gap2 and call4" finalTarget="call4" />
+    <phase duration="11" state="rrrrrrrGGrrrrrrrGG" minDur="5" maxDur="11" next="12" name="service_4" />
+    <phase duration="23" state="rrrGGGGggrrrrGGGgg" minDur="23" maxDur="86400" earliestEnd="60" latestEnd="60" earlyTarget="0" finalTarget="1" next="0 6 7 5" name="coordinated_main" />
+    <phase duration="3" state="rrryyyyyyrrrryyyyy" minDur="3" maxDur="3" next="2" name="skip_5_to_2" earlyTarget="0" finalTarget="call2" />
+    <phase duration="3" state="rrryyyyggrrrryyygg" minDur="3" maxDur="3" next="4" name="skip_5_to_4" earlyTarget="0" finalTarget="call4" />
+    <phase duration="0.5" state="rrGrrrrrrrrGGrrrrr" minDur="0.5" maxDur="0.5" next="2" name="direct_1_to_2" earlyTarget="gap1 and call2" finalTarget="call2" />
+    <phase duration="3" state="rryrrrrrrrryyrrrrr" minDur="3" maxDur="3" next="4" name="skip_1_to_4" earlyTarget="gap1 and call4" finalTarget="call4" />
+    <phase duration="3" state="rryrrrrrrrryyrrrrr" minDur="3" maxDur="3" next="5" name="skip_1_to_5" earlyTarget="gap1" finalTarget="1" />
+    <phase duration="3" state="yyyrrrrrryyyyrrrrr" minDur="3" maxDur="3" next="5" name="skip_2_to_5" earlyTarget="gap2" finalTarget="1" />
+    <phase duration="0.5" state="rrrrrrrGGrrrrrrrGG" minDur="0.5" maxDur="0.5" next="5" name="direct_4_to_5" earlyTarget="gap4" finalTarget="1" />
+    <condition id="call1" value="0" />
+    <condition id="detect1" value="( a:dual_GS_cluster_54287971_5910976488_3_stop &gt; 0 or a:dual_GS_cluster_54287971_5910976488_3_advance &gt; 0 or ( r:2 &gt; 3 and z:dual_GS_cluster_54287971_5910976488_3_advance &lt;= 3 ) or ( g:2 = 0 and r:2 = 0 and z:dual_GS_cluster_54287971_5910976488_3_advance &lt;= 3 ) ) or ( a:dual_GS_cluster_54287971_5910976488_1_stop &gt; 0 or a:dual_GS_cluster_54287971_5910976488_1_advance &gt; 0 or ( r:11 &gt; 3 and z:dual_GS_cluster_54287971_5910976488_1_advance &lt;= 3 ) or ( g:11 = 0 and r:11 = 0 and z:dual_GS_cluster_54287971_5910976488_1_advance &lt;= 3 ) )" />
+    <condition id="gap1" value="z:dual_GS_cluster_54287971_5910976488_3_advance &gt; 3 and z:dual_GS_cluster_54287971_5910976488_1_advance &gt; 3" />
+    <condition id="active1" value="g:2 &gt; 0 and r:0 &gt; 0" />
+    <assignment id="call1" check="detect1" value="1" />
+    <assignment id="call1" check="active1" value="0" />
+    <condition id="call2" value="0" />
+    <condition id="detect2" value="( a:dual_GS_cluster_54287971_5910976488_2_stop &gt; 0 or a:dual_GS_cluster_54287971_5910976488_2_advance &gt; 0 or ( r:0 &gt; 3 and z:dual_GS_cluster_54287971_5910976488_2_advance &lt;= 3 ) or ( g:0 = 0 and r:0 = 0 and z:dual_GS_cluster_54287971_5910976488_2_advance &lt;= 3 ) ) or ( a:dual_GS_cluster_54287971_5910976488_0_stop &gt; 0 or a:dual_GS_cluster_54287971_5910976488_0_advance &gt; 0 or ( r:9 &gt; 3 and z:dual_GS_cluster_54287971_5910976488_0_advance &lt;= 3 ) or ( g:9 = 0 and r:9 = 0 and z:dual_GS_cluster_54287971_5910976488_0_advance &lt;= 3 ) )" />
+    <condition id="gap2" value="z:dual_GS_cluster_54287971_5910976488_2_advance &gt; 3 and z:dual_GS_cluster_54287971_5910976488_0_advance &gt; 3" />
+    <condition id="active2" value="g:0 &gt; 0" />
+    <assignment id="call2" check="detect2" value="1" />
+    <assignment id="call2" check="active2" value="0" />
+    <condition id="call4" value="0" />
+    <condition id="detect4" value="( a:dual_GS_cluster_54287971_5910976488_5_stop &gt; 0 or a:dual_GS_cluster_54287971_5910976488_5_advance &gt; 0 or ( r:7 &gt; 3 and z:dual_GS_cluster_54287971_5910976488_5_advance &lt;= 3 ) or ( g:7 = 0 and r:7 = 0 and z:dual_GS_cluster_54287971_5910976488_5_advance &lt;= 3 ) ) or ( a:dual_GS_cluster_54287971_5910976488_4_stop &gt; 0 or a:dual_GS_cluster_54287971_5910976488_4_advance &gt; 0 or ( r:16 &gt; 3 and z:dual_GS_cluster_54287971_5910976488_4_advance &lt;= 3 ) or ( g:16 = 0 and r:16 = 0 and z:dual_GS_cluster_54287971_5910976488_4_advance &lt;= 3 ) )" />
+    <condition id="gap4" value="z:dual_GS_cluster_54287971_5910976488_5_advance &gt; 3 and z:dual_GS_cluster_54287971_5910976488_4_advance &gt; 3" />
+    <condition id="active4" value="g:7 &gt; 0 and r:3 &gt; 0" />
+    <assignment id="call4" check="detect4" value="1" />
+    <assignment id="call4" check="active4" value="0" />
+  </tlLogic>
+  <tlLogic id="GS_cluster_5910940035_5910945467" type="actuated" programID="coord_dual_loop_skip" offset="27">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="60" />
+    <param key="build-all-detectors" value="true" />
+    <param key="inactive-threshold" value="60" />
+    <param key="detector-gap" value="3" />
+    <param key="detector-length" value="0" />
+    <param key="show-conditions" value="call1" />
+    <param key="-80798171#5_0" value="dual_GS_cluster_5910940035_5910945467_0_advance" />
+    <param key="7247663_0" value="dual_GS_cluster_5910940035_5910945467_1_advance" />
+    <param key="dual-loop-length" value="1.8" />
+    <param key="dual-loop-center-spacing" value="6" />
+    <param key="dual-loop-stopbar-setback" value="0.5" />
+    <param key="extra-detectors" value="dual_GS_cluster_5910940035_5910945467_0_stop dual_GS_cluster_5910940035_5910945467_0_advance dual_GS_cluster_5910940035_5910945467_1_stop dual_GS_cluster_5910940035_5910945467_1_advance" />
+    <phase duration="3" state="yyyyyrrrryyyyyrrrr" minDur="3" maxDur="3" next="1" earlyTarget="0" finalTarget="call1" />
+    <phase duration="7" state="rrrrrGGGGrrrrrGGGG" minDur="5" maxDur="7" next="2" name="service_1" />
+    <phase duration="2" state="rrrrryyyyrrrrryyyy" minDur="2" maxDur="2" next="3" earlyTarget="gap1" finalTarget="1" />
+    <phase duration="48" state="GGGGGrrrrGGGGGrrrr" minDur="48" maxDur="86400" earliestEnd="60" latestEnd="60" earlyTarget="0" finalTarget="1" next="0 3" name="coordinated_main" />
+    <condition id="call1" value="0" />
+    <condition id="detect1" value="( a:dual_GS_cluster_5910940035_5910945467_0_stop &gt; 0 or a:dual_GS_cluster_5910940035_5910945467_0_advance &gt; 0 or ( r:5 &gt; 3 and z:dual_GS_cluster_5910940035_5910945467_0_advance &lt;= 3 ) or ( g:5 = 0 and r:5 = 0 and z:dual_GS_cluster_5910940035_5910945467_0_advance &lt;= 3 ) ) or ( a:dual_GS_cluster_5910940035_5910945467_1_stop &gt; 0 or a:dual_GS_cluster_5910940035_5910945467_1_advance &gt; 0 or ( r:14 &gt; 3 and z:dual_GS_cluster_5910940035_5910945467_1_advance &lt;= 3 ) or ( g:14 = 0 and r:14 = 0 and z:dual_GS_cluster_5910940035_5910945467_1_advance &lt;= 3 ) )" />
+    <condition id="gap1" value="z:dual_GS_cluster_5910940035_5910945467_0_advance &gt; 3 and z:dual_GS_cluster_5910940035_5910945467_1_advance &gt; 3" />
+    <condition id="active1" value="g:5 &gt; 0" />
+    <assignment id="call1" check="detect1" value="1" />
+    <assignment id="call1" check="active1" value="0" />
+  </tlLogic>
+  <tlLogic id="GS_cluster_4689533026_54483626_5910945475_5910945476" type="actuated" programID="coord_dual_loop_skip" offset="20">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="60" />
+    <param key="build-all-detectors" value="true" />
+    <param key="inactive-threshold" value="60" />
+    <param key="detector-gap" value="3" />
+    <param key="detector-length" value="0" />
+    <param key="show-conditions" value="call1 call2 call4" />
+    <param key="474688711_0" value="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_0_advance" />
+    <param key="474688711_1" value="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_1_advance" />
+    <param key="474688711_2" value="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_2_advance" />
+    <param key="474688711_3" value="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_3_advance" />
+    <param key="475159103#0_0" value="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_4_advance" />
+    <param key="475159103#0_1" value="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_5_advance" />
+    <param key="475159103#0_2" value="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_6_advance" />
+    <param key="475159103#0_4" value="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_7_advance" />
+    <param key="626283153#0_3" value="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_8_advance" />
+    <param key="626283153#0_4" value="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_9_advance" />
+    <param key="626284343#0_3" value="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_10_advance" />
+    <param key="626284343#0_4" value="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_11_advance" />
+    <param key="dual-loop-length" value="1.8" />
+    <param key="dual-loop-center-spacing" value="6" />
+    <param key="dual-loop-stopbar-setback" value="0.5" />
+    <param key="extra-detectors" value="dual_GS_cluster_4689533026_54483626_5910945475_5910945476_0_stop dual_GS_cluster_4689533026_54483626_5910945475_5910945476_0_advance dual_GS_cluster_4689533026_54483626_5910945475_5910945476_1_stop dual_GS_cluster_4689533026_54483626_5910945475_5910945476_1_advance dual_GS_cluster_4689533026_54483626_5910945475_5910945476_2_stop dual_GS_cluster_4689533026_54483626_5910945475_5910945476_2_advance dual_GS_cluster_4689533026_54483626_5910945475_5910945476_3_stop dual_GS_cluster_4689533026_54483626_5910945475_5910945476_3_advance dual_GS_cluster_4689533026_54483626_5910945475_5910945476_4_stop dual_GS_cluster_4689533026_54483626_5910945475_5910945476_4_advance dual_GS_cluster_4689533026_54483626_5910945475_5910945476_5_stop dual_GS_cluster_4689533026_54483626_5910945475_5910945476_5_advance dual_GS_cluster_4689533026_54483626_5910945475_5910945476_6_stop dual_GS_cluster_4689533026_54483626_5910945475_5910945476_6_advance dual_GS_cluster_4689533026_54483626_5910945475_5910945476_7_stop dual_GS_cluster_4689533026_54483626_5910945475_5910945476_7_advance dual_GS_cluster_4689533026_54483626_5910945475_5910945476_8_stop dual_GS_cluster_4689533026_54483626_5910945475_5910945476_8_advance dual_GS_cluster_4689533026_54483626_5910945475_5910945476_9_stop dual_GS_cluster_4689533026_54483626_5910945475_5910945476_9_advance dual_GS_cluster_4689533026_54483626_5910945475_5910945476_10_stop dual_GS_cluster_4689533026_54483626_5910945475_5910945476_10_advance dual_GS_cluster_4689533026_54483626_5910945475_5910945476_11_stop dual_GS_cluster_4689533026_54483626_5910945475_5910945476_11_advance" />
+    <phase duration="4" state="rrrrryyyyyrrrrrrryyyyy" minDur="4" maxDur="4" next="1" earlyTarget="0" finalTarget="call1" />
+    <phase duration="21" state="rrrGGrrrrrrrrrrGGrrrrr" minDur="5" maxDur="21" next="8 9 10" name="service_1" />
+    <phase duration="9" state="GGGggrrrrrGGGGGggrrrrr" minDur="5" maxDur="9" next="3 11" name="service_2" />
+    <phase duration="4" state="yyyyyrrrrryyyyyyyrrrrr" minDur="4" maxDur="4" next="4" earlyTarget="gap2 and call4" finalTarget="call4" />
+    <phase duration="11" state="rrrrrrrrGGrrrrrrrrrrGG" minDur="5" maxDur="11" next="12" name="service_4" />
+    <phase duration="11" state="rrrrrGGGggrrrrrrrGGGgg" minDur="11" maxDur="86400" earliestEnd="60" latestEnd="60" earlyTarget="0" finalTarget="1" next="0 6 7 5" name="coordinated_main" />
+    <phase duration="4" state="rrrrryyyyyrrrrrrryyyyy" minDur="4" maxDur="4" next="2" name="skip_5_to_2" earlyTarget="0" finalTarget="call2" />
+    <phase duration="4" state="rrrrryyyggrrrrrrryyygg" minDur="4" maxDur="4" next="4" name="skip_5_to_4" earlyTarget="0" finalTarget="call4" />
+    <phase duration="0.5" state="rrrGGrrrrrrrrrrGGrrrrr" minDur="0.5" maxDur="0.5" next="2" name="direct_1_to_2" earlyTarget="gap1 and call2" finalTarget="call2" />
+    <phase duration="3" state="rrryyrrrrrrrrrryyrrrrr" minDur="3" maxDur="3" next="4" name="skip_1_to_4" earlyTarget="gap1 and call4" finalTarget="call4" />
+    <phase duration="3" state="rrryyrrrrrrrrrryyrrrrr" minDur="3" maxDur="3" next="5" name="skip_1_to_5" earlyTarget="gap1" finalTarget="1" />
+    <phase duration="3" state="yyyyyrrrrryyyyyyyrrrrr" minDur="3" maxDur="3" next="5" name="skip_2_to_5" earlyTarget="gap2" finalTarget="1" />
+    <phase duration="0.5" state="rrrrrrrrGGrrrrrrrrrrGG" minDur="0.5" maxDur="0.5" next="5" name="direct_4_to_5" earlyTarget="gap4" finalTarget="1" />
+    <condition id="call1" value="0" />
+    <condition id="detect1" value="( a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_3_stop &gt; 0 or a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_3_advance &gt; 0 or ( r:3 &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_3_advance &lt;= 3 ) or ( g:3 = 0 and r:3 = 0 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_3_advance &lt;= 3 ) ) or ( a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_7_stop &gt; 0 or a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_7_advance &gt; 0 or ( r:15 &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_7_advance &lt;= 3 ) or ( g:15 = 0 and r:15 = 0 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_7_advance &lt;= 3 ) )" />
+    <condition id="gap1" value="z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_3_advance &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_7_advance &gt; 3" />
+    <condition id="active1" value="g:3 &gt; 0 and r:0 &gt; 0" />
+    <assignment id="call1" check="detect1" value="1" />
+    <assignment id="call1" check="active1" value="0" />
+    <condition id="call2" value="0" />
+    <condition id="detect2" value="( a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_0_stop &gt; 0 or a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_0_advance &gt; 0 or ( r:0 &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_0_advance &lt;= 3 ) or ( g:0 = 0 and r:0 = 0 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_0_advance &lt;= 3 ) ) or ( a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_1_stop &gt; 0 or a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_1_advance &gt; 0 or ( r:1 &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_1_advance &lt;= 3 ) or ( g:1 = 0 and r:1 = 0 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_1_advance &lt;= 3 ) ) or ( a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_2_stop &gt; 0 or a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_2_advance &gt; 0 or ( r:2 &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_2_advance &lt;= 3 ) or ( g:2 = 0 and r:2 = 0 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_2_advance &lt;= 3 ) ) or ( a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_4_stop &gt; 0 or a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_4_advance &gt; 0 or ( r:10 &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_4_advance &lt;= 3 ) or ( g:10 = 0 and r:10 = 0 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_4_advance &lt;= 3 ) ) or ( a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_5_stop &gt; 0 or a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_5_advance &gt; 0 or ( r:12 &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_5_advance &lt;= 3 ) or ( g:12 = 0 and r:12 = 0 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_5_advance &lt;= 3 ) ) or ( a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_6_stop &gt; 0 or a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_6_advance &gt; 0 or ( r:13 &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_6_advance &lt;= 3 ) or ( g:13 = 0 and r:13 = 0 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_6_advance &lt;= 3 ) )" />
+    <condition id="gap2" value="z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_0_advance &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_1_advance &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_2_advance &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_4_advance &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_5_advance &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_6_advance &gt; 3" />
+    <condition id="active2" value="g:0 &gt; 0" />
+    <assignment id="call2" check="detect2" value="1" />
+    <assignment id="call2" check="active2" value="0" />
+    <condition id="call4" value="0" />
+    <condition id="detect4" value="( a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_10_stop &gt; 0 or a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_10_advance &gt; 0 or ( r:8 &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_10_advance &lt;= 3 ) or ( g:8 = 0 and r:8 = 0 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_10_advance &lt;= 3 ) ) or ( a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_11_stop &gt; 0 or a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_11_advance &gt; 0 or ( r:9 &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_11_advance &lt;= 3 ) or ( g:9 = 0 and r:9 = 0 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_11_advance &lt;= 3 ) ) or ( a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_8_stop &gt; 0 or a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_8_advance &gt; 0 or ( r:20 &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_8_advance &lt;= 3 ) or ( g:20 = 0 and r:20 = 0 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_8_advance &lt;= 3 ) ) or ( a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_9_stop &gt; 0 or a:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_9_advance &gt; 0 or ( r:21 &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_9_advance &lt;= 3 ) or ( g:21 = 0 and r:21 = 0 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_9_advance &lt;= 3 ) )" />
+    <condition id="gap4" value="z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_10_advance &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_11_advance &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_8_advance &gt; 3 and z:dual_GS_cluster_4689533026_54483626_5910945475_5910945476_9_advance &gt; 3" />
+    <condition id="active4" value="g:8 &gt; 0 and r:5 &gt; 0" />
+    <assignment id="call4" check="detect4" value="1" />
+    <assignment id="call4" check="active4" value="0" />
+  </tlLogic>
+  <tlLogic id="GS_cluster_5910933593_9013582988" type="actuated" programID="coord_dual_loop_skip" offset="33">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="60" />
+    <param key="build-all-detectors" value="true" />
+    <param key="inactive-threshold" value="60" />
+    <param key="detector-gap" value="3" />
+    <param key="detector-length" value="0" />
+    <param key="show-conditions" value="call1 call3 call5" />
+    <param key="1214656310#0_0" value="dual_GS_cluster_5910933593_9013582988_0_advance" />
+    <param key="1214656310#0_1" value="dual_GS_cluster_5910933593_9013582988_1_advance" />
+    <param key="1214656310#0_2" value="dual_GS_cluster_5910933593_9013582988_2_advance" />
+    <param key="1214656310#0_3" value="dual_GS_cluster_5910933593_9013582988_3_advance" />
+    <param key="1351943712#0_0" value="dual_GS_cluster_5910933593_9013582988_4_advance" />
+    <param key="1351943712#0_1" value="dual_GS_cluster_5910933593_9013582988_5_advance" />
+    <param key="1351943712#0_2" value="dual_GS_cluster_5910933593_9013582988_6_advance" />
+    <param key="626091619#0_3" value="dual_GS_cluster_5910933593_9013582988_7_advance" />
+    <param key="626091619#0_4" value="dual_GS_cluster_5910933593_9013582988_8_advance" />
+    <param key="626091624#0_3" value="dual_GS_cluster_5910933593_9013582988_9_advance" />
+    <param key="dual-loop-length" value="1.8" />
+    <param key="dual-loop-center-spacing" value="6" />
+    <param key="dual-loop-stopbar-setback" value="0.5" />
+    <param key="extra-detectors" value="dual_GS_cluster_5910933593_9013582988_0_stop dual_GS_cluster_5910933593_9013582988_0_advance dual_GS_cluster_5910933593_9013582988_1_stop dual_GS_cluster_5910933593_9013582988_1_advance dual_GS_cluster_5910933593_9013582988_2_stop dual_GS_cluster_5910933593_9013582988_2_advance dual_GS_cluster_5910933593_9013582988_3_stop dual_GS_cluster_5910933593_9013582988_3_advance dual_GS_cluster_5910933593_9013582988_4_stop dual_GS_cluster_5910933593_9013582988_4_advance dual_GS_cluster_5910933593_9013582988_5_stop dual_GS_cluster_5910933593_9013582988_5_advance dual_GS_cluster_5910933593_9013582988_6_stop dual_GS_cluster_5910933593_9013582988_6_advance dual_GS_cluster_5910933593_9013582988_7_stop dual_GS_cluster_5910933593_9013582988_7_advance dual_GS_cluster_5910933593_9013582988_8_stop dual_GS_cluster_5910933593_9013582988_8_advance dual_GS_cluster_5910933593_9013582988_9_stop dual_GS_cluster_5910933593_9013582988_9_advance" />
+    <phase duration="5" state="yyyyyrrrrryyyyyrrrrr" minDur="5" maxDur="5" next="1" earlyTarget="0" finalTarget="call1" />
+    <phase duration="11" state="rrrrrrrrGGrrrrrrrrGG" minDur="5" maxDur="11" next="2 9 10" name="service_1" />
+    <phase duration="5" state="rrrrrrrryyrrrrrrrryy" minDur="5" maxDur="5" next="3" earlyTarget="gap1 and call3" finalTarget="call3" />
+    <phase duration="9" state="rrrrrGGGrrrrrrrGGGrr" minDur="5" maxDur="9" next="4 11" name="service_3" />
+    <phase duration="5" state="rrrrryyyrrrrrrryyyrr" minDur="5" maxDur="5" next="5" earlyTarget="gap3 and call5" finalTarget="call5" />
+    <phase duration="12" state="rrrGGrrrrrrrrGGrrrrr" minDur="5" maxDur="12" next="12" name="service_5" />
+    <phase duration="13" state="GGGggrrrrrGGGggrrrrr" minDur="13" maxDur="86400" earliestEnd="60" latestEnd="60" earlyTarget="0" finalTarget="1" next="0 7 8 6" name="coordinated_main" />
+    <phase duration="5" state="yyyyyrrrrryyyyyrrrrr" minDur="5" maxDur="5" next="3" name="skip_6_to_3" earlyTarget="0" finalTarget="call3" />
+    <phase duration="5" state="yyyggrrrrryyyggrrrrr" minDur="5" maxDur="5" next="5" name="skip_6_to_5" earlyTarget="0" finalTarget="call5" />
+    <phase duration="5" state="rrrrrrrryyrrrrrrrryy" minDur="5" maxDur="5" next="5" name="skip_1_to_5" earlyTarget="gap1 and call5" finalTarget="call5" />
+    <phase duration="5" state="rrrrrrrryyrrrrrrrryy" minDur="5" maxDur="5" next="6" name="skip_1_to_6" earlyTarget="gap1" finalTarget="1" />
+    <phase duration="3" state="rrrrryyyrrrrrrryyyrr" minDur="3" maxDur="3" next="6" name="skip_3_to_6" earlyTarget="gap3" finalTarget="1" />
+    <phase duration="0.5" state="rrrGGrrrrrrrrGGrrrrr" minDur="0.5" maxDur="0.5" next="6" name="direct_5_to_6" earlyTarget="gap5" finalTarget="1" />
+    <condition id="call1" value="0" />
+    <condition id="detect1" value="( a:dual_GS_cluster_5910933593_9013582988_3_stop &gt; 0 or a:dual_GS_cluster_5910933593_9013582988_3_advance &gt; 0 or ( r:8 &gt; 3 and z:dual_GS_cluster_5910933593_9013582988_3_advance &lt;= 3 ) or ( g:8 = 0 and r:8 = 0 and z:dual_GS_cluster_5910933593_9013582988_3_advance &lt;= 3 ) ) or ( a:dual_GS_cluster_5910933593_9013582988_6_stop &gt; 0 or a:dual_GS_cluster_5910933593_9013582988_6_advance &gt; 0 or ( r:18 &gt; 3 and z:dual_GS_cluster_5910933593_9013582988_6_advance &lt;= 3 ) or ( g:18 = 0 and r:18 = 0 and z:dual_GS_cluster_5910933593_9013582988_6_advance &lt;= 3 ) )" />
+    <condition id="gap1" value="z:dual_GS_cluster_5910933593_9013582988_3_advance &gt; 3 and z:dual_GS_cluster_5910933593_9013582988_6_advance &gt; 3" />
+    <condition id="active1" value="g:8 &gt; 0" />
+    <assignment id="call1" check="detect1" value="1" />
+    <assignment id="call1" check="active1" value="0" />
+    <condition id="call3" value="0" />
+    <condition id="detect3" value="( a:dual_GS_cluster_5910933593_9013582988_0_stop &gt; 0 or a:dual_GS_cluster_5910933593_9013582988_0_advance &gt; 0 or ( r:5 &gt; 3 and z:dual_GS_cluster_5910933593_9013582988_0_advance &lt;= 3 ) or ( g:5 = 0 and r:5 = 0 and z:dual_GS_cluster_5910933593_9013582988_0_advance &lt;= 3 ) ) or ( a:dual_GS_cluster_5910933593_9013582988_1_stop &gt; 0 or a:dual_GS_cluster_5910933593_9013582988_1_advance &gt; 0 or ( r:6 &gt; 3 and z:dual_GS_cluster_5910933593_9013582988_1_advance &lt;= 3 ) or ( g:6 = 0 and r:6 = 0 and z:dual_GS_cluster_5910933593_9013582988_1_advance &lt;= 3 ) ) or ( a:dual_GS_cluster_5910933593_9013582988_2_stop &gt; 0 or a:dual_GS_cluster_5910933593_9013582988_2_advance &gt; 0 or ( r:7 &gt; 3 and z:dual_GS_cluster_5910933593_9013582988_2_advance &lt;= 3 ) or ( g:7 = 0 and r:7 = 0 and z:dual_GS_cluster_5910933593_9013582988_2_advance &lt;= 3 ) ) or ( a:dual_GS_cluster_5910933593_9013582988_4_stop &gt; 0 or a:dual_GS_cluster_5910933593_9013582988_4_advance &gt; 0 or ( r:15 &gt; 3 and z:dual_GS_cluster_5910933593_9013582988_4_advance &lt;= 3 ) or ( g:15 = 0 and r:15 = 0 and z:dual_GS_cluster_5910933593_9013582988_4_advance &lt;= 3 ) ) or ( a:dual_GS_cluster_5910933593_9013582988_5_stop &gt; 0 or a:dual_GS_cluster_5910933593_9013582988_5_advance &gt; 0 or ( r:17 &gt; 3 and z:dual_GS_cluster_5910933593_9013582988_5_advance &lt;= 3 ) or ( g:17 = 0 and r:17 = 0 and z:dual_GS_cluster_5910933593_9013582988_5_advance &lt;= 3 ) )" />
+    <condition id="gap3" value="z:dual_GS_cluster_5910933593_9013582988_0_advance &gt; 3 and z:dual_GS_cluster_5910933593_9013582988_1_advance &gt; 3 and z:dual_GS_cluster_5910933593_9013582988_2_advance &gt; 3 and z:dual_GS_cluster_5910933593_9013582988_4_advance &gt; 3 and z:dual_GS_cluster_5910933593_9013582988_5_advance &gt; 3" />
+    <condition id="active3" value="g:5 &gt; 0" />
+    <assignment id="call3" check="detect3" value="1" />
+    <assignment id="call3" check="active3" value="0" />
+    <condition id="call5" value="0" />
+    <condition id="detect5" value="( a:dual_GS_cluster_5910933593_9013582988_9_stop &gt; 0 or a:dual_GS_cluster_5910933593_9013582988_9_advance &gt; 0 or ( r:3 &gt; 3 and z:dual_GS_cluster_5910933593_9013582988_9_advance &lt;= 3 ) or ( g:3 = 0 and r:3 = 0 and z:dual_GS_cluster_5910933593_9013582988_9_advance &lt;= 3 ) ) or ( a:dual_GS_cluster_5910933593_9013582988_7_stop &gt; 0 or a:dual_GS_cluster_5910933593_9013582988_7_advance &gt; 0 or ( r:13 &gt; 3 and z:dual_GS_cluster_5910933593_9013582988_7_advance &lt;= 3 ) or ( g:13 = 0 and r:13 = 0 and z:dual_GS_cluster_5910933593_9013582988_7_advance &lt;= 3 ) ) or ( a:dual_GS_cluster_5910933593_9013582988_8_stop &gt; 0 or a:dual_GS_cluster_5910933593_9013582988_8_advance &gt; 0 or ( r:14 &gt; 3 and z:dual_GS_cluster_5910933593_9013582988_8_advance &lt;= 3 ) or ( g:14 = 0 and r:14 = 0 and z:dual_GS_cluster_5910933593_9013582988_8_advance &lt;= 3 ) )" />
+    <condition id="gap5" value="z:dual_GS_cluster_5910933593_9013582988_9_advance &gt; 3 and z:dual_GS_cluster_5910933593_9013582988_7_advance &gt; 3 and z:dual_GS_cluster_5910933593_9013582988_8_advance &gt; 3" />
+    <condition id="active5" value="g:3 &gt; 0 and r:0 &gt; 0" />
+    <assignment id="call5" check="detect5" value="1" />
+    <assignment id="call5" check="active5" value="0" />
+  </tlLogic>
+  <tlLogic id="5910940029" type="actuated" programID="coord_act" offset="14">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="60" />
+    <phase duration="3" state="yy" minDur="3" maxDur="3" />
+    <phase duration="3" state="rr" minDur="3" maxDur="3" />
+    <phase duration="54" state="GG" minDur="54" maxDur="54" earliestEnd="60" latestEnd="60" />
+  </tlLogic>
+  <tlLogic id="5910975175" type="actuated" programID="coord_act" offset="14">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="60" />
+    <phase duration="3" state="yy" minDur="3" maxDur="3" />
+    <phase duration="3" state="rr" minDur="3" maxDur="3" />
+    <phase duration="54" state="GG" minDur="54" maxDur="54" earliestEnd="60" latestEnd="60" />
+  </tlLogic>
+  <tlLogic id="4685892089" type="actuated" programID="coord_act" offset="1">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="60" />
+    <phase duration="3" state="yyyyyy" minDur="3" maxDur="3" />
+    <phase duration="3" state="rrrrrr" minDur="3" maxDur="3" />
+    <phase duration="54" state="GGGGGG" minDur="54" maxDur="54" earliestEnd="60" latestEnd="60" />
+  </tlLogic>
+  <tlLogic id="joinedS_12329405771_54512111" type="actuated" programID="coord_dual_loop_skip" offset="50">
+    <param key="coordinated" value="true" />
+    <param key="cycleTime" value="60" />
+    <param key="jam-threshold" value="30" />
+    <param key="build-all-detectors" value="true" />
+    <param key="inactive-threshold" value="60" />
+    <param key="detector-gap" value="3" />
+    <param key="detector-length" value="0" />
+    <param key="show-conditions" value="call1" />
+    <param key="1332701129#0_0" value="dual_joinedS_12329405771_54512111_0_advance" />
+    <param key="474881769#0_0" value="dual_joinedS_12329405771_54512111_1_advance" />
+    <param key="474881769#0_1" value="dual_joinedS_12329405771_54512111_2_advance" />
+    <param key="7210662_0" value="dual_joinedS_12329405771_54512111_3_advance" />
+    <param key="7210662_1" value="dual_joinedS_12329405771_54512111_4_advance" />
+    <param key="dual-loop-length" value="1.8" />
+    <param key="dual-loop-center-spacing" value="6" />
+    <param key="dual-loop-stopbar-setback" value="0.5" />
+    <param key="extra-detectors" value="dual_joinedS_12329405771_54512111_0_stop dual_joinedS_12329405771_54512111_0_advance dual_joinedS_12329405771_54512111_1_stop dual_joinedS_12329405771_54512111_1_advance dual_joinedS_12329405771_54512111_2_stop dual_joinedS_12329405771_54512111_2_advance dual_joinedS_12329405771_54512111_3_stop dual_joinedS_12329405771_54512111_3_advance dual_joinedS_12329405771_54512111_4_stop dual_joinedS_12329405771_54512111_4_advance" />
+    <phase duration="3" state="rrryyyrrrryyyy" minDur="3" maxDur="3" next="1" earlyTarget="0" finalTarget="call1" />
+    <phase duration="12" state="gGGrrrGGGGrrrr" minDur="7" maxDur="30" next="2" name="service_1" />
+    <phase duration="3" state="yyyrrryyyyrrrr" minDur="3" maxDur="3" next="3" earlyTarget="gap1" finalTarget="1" />
+    <phase duration="42" state="rrrgGGrrrrGGgg" minDur="15" maxDur="86400" earliestEnd="60" latestEnd="60" earlyTarget="0" finalTarget="1" next="0 3" name="coordinated_main" />
+    <condition id="call1" value="0" />
+    <condition id="detect1" value="( a:dual_joinedS_12329405771_54512111_0_stop &gt; 0 or a:dual_joinedS_12329405771_54512111_0_advance &gt; 0 or ( r:0 &gt; 3 and z:dual_joinedS_12329405771_54512111_0_advance &lt;= 3 ) or ( g:0 = 0 and r:0 = 0 and z:dual_joinedS_12329405771_54512111_0_advance &lt;= 3 ) ) or ( a:dual_joinedS_12329405771_54512111_1_stop &gt; 0 or a:dual_joinedS_12329405771_54512111_1_advance &gt; 0 or ( r:1 &gt; 3 and z:dual_joinedS_12329405771_54512111_1_advance &lt;= 3 ) or ( g:1 = 0 and r:1 = 0 and z:dual_joinedS_12329405771_54512111_1_advance &lt;= 3 ) ) or ( a:dual_joinedS_12329405771_54512111_2_stop &gt; 0 or a:dual_joinedS_12329405771_54512111_2_advance &gt; 0 or ( r:2 &gt; 3 and z:dual_joinedS_12329405771_54512111_2_advance &lt;= 3 ) or ( g:2 = 0 and r:2 = 0 and z:dual_joinedS_12329405771_54512111_2_advance &lt;= 3 ) ) or ( a:dual_joinedS_12329405771_54512111_3_stop &gt; 0 or a:dual_joinedS_12329405771_54512111_3_advance &gt; 0 or ( r:6 &gt; 3 and z:dual_joinedS_12329405771_54512111_3_advance &lt;= 3 ) or ( g:6 = 0 and r:6 = 0 and z:dual_joinedS_12329405771_54512111_3_advance &lt;= 3 ) ) or ( a:dual_joinedS_12329405771_54512111_4_stop &gt; 0 or a:dual_joinedS_12329405771_54512111_4_advance &gt; 0 or ( r:8 &gt; 3 and z:dual_joinedS_12329405771_54512111_4_advance &lt;= 3 ) or ( g:8 = 0 and r:8 = 0 and z:dual_joinedS_12329405771_54512111_4_advance &lt;= 3 ) )" />
+    <condition id="gap1" value="z:dual_joinedS_12329405771_54512111_0_advance &gt; 3 and z:dual_joinedS_12329405771_54512111_1_advance &gt; 3 and z:dual_joinedS_12329405771_54512111_2_advance &gt; 3 and z:dual_joinedS_12329405771_54512111_3_advance &gt; 3 and z:dual_joinedS_12329405771_54512111_4_advance &gt; 3" />
+    <condition id="active1" value="g:0 &gt; 0" />
+    <assignment id="call1" check="detect1" value="1" />
+    <assignment id="call1" check="active1" value="0" />
+  </tlLogic>
+</additional>
